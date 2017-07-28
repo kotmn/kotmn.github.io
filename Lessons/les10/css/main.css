@@ -63,7 +63,8 @@
 	height: 75px;
 	background-color: #e5e5e5;
 	margin-left: 10px;
- 
+    border-left: dashed 1px;
+    border-color: #c2c2c2;
 
 }
 
