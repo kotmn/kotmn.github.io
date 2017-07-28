@@ -22,10 +22,12 @@
 .navhead {
   min-height: 155px;
   background-color: #f8c04a;
+  background: linear-gradient(to bottom, #f8c04a, #CEAD78);
 }
 .logo {
   margin-top: 33px;
    background-blend-mode: screen, difference, normal;
+
 }
 
 .promo h2 {
@@ -76,18 +78,17 @@
 }
 
 .table-price a {
-	font-family: Tahoma, sans-serif;
-	font-size: 14px;
-	color: black;
-    text-decoration: underline;
-   
-    position: absolute;  
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: black;
+  text-decoration: underline; 
+  position: absolute;  
   top: 1.7em;
   left: 1.6em;
   bottom: 0;
   right: 0;
   align:center;
- 
+ font-weight: 500;
 
 
 }
