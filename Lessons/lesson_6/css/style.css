@@ -1,0 +1,29 @@
+body {
+	min-width: 500px;
+}
+li {
+	display: inline;
+	padding-left: 11%;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.box {
+	background-color: black;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	
+
+	
+	
+}
+
+p {
+	margin-top: 4rem;
+}
