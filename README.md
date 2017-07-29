@@ -17,7 +17,7 @@
     - [Урок № 5](https://kotmn.github.io/Lessons/lesson_4/ "Описание") Знакомство с основами CSS. 
     
     - [Урок № 6](https://kotmn.github.io/Lessons/lesson_6/ "Описание") Позиционирование в CSS.
-    ___
+___
     
  3. Модуль 2. Работа с первым проектом.
     
@@ -26,7 +26,7 @@
     - [Урок № 8](https://kotmn.github.io/Lessons/lesson_8/ "Описание") Ускорение верстки в разы. 
     
     - [Урок № 9](https://kotmn.github.io/Lessons/lesson_9/ "Описание") Верстка при помощи bootstrap.
-    ___
+ ___
     
  4. Модуль 2. Еще немного ускорения.
     
@@ -35,5 +35,5 @@
     - [Урок № 11](https://yadi.sk/d/tZCogB0J3LXhgY "Описание") Сниппеты.
     
     - [Урок № 12](https://kotmn.github.io/ "Описание") Хостинг от GitHub.
-    ___
+ ___
 
