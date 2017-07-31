@@ -35,4 +35,14 @@
     - [Урок № 11](https://yadi.sk/d/tZCogB0J3LXhgY "Описание") Сниппеты.
     
     - [Урок № 12](https://kotmn.github.io/ "Описание") Хостинг от GitHub.
+    
+5. Модуль 5. Полноценная практика.
+    
+    - [Урок № 13](https://kotmn.github.io/Lessons/lesson_13/ "Описание") Адаптивная верстка. 
+    
+    - [Практика 1](https://kotmn.github.io/Lessons/lesson_13_1/ "Описание") Подготовка файлов. Верстка шапки сайта. 
+    
+    - [Урок № 14](https://yadi.sk/d/tZCogB0J3LXhgY "Описание") Сниппеты.
+    
+    - [Урок № 15](https://kotmn.github.io/ "Описание") Хостинг от GitHub.    
 
