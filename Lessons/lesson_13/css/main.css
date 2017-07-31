@@ -1,0 +1,55 @@
+.logo {
+  margin-top: 33px;
+  min-height: 80px;
+}
+.menu {
+  margin-top: 30px;
+  background-color: #232323;
+  min-height: 77px;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  font-family: sans narrow sans-serif;
+  color: #f9ab41;
+  font-weight: 600;
+  text-align: center;
+  line-height: 75px;
+  height: 75px;
+  font-size: 14px;
+  padding-left: 1.2em;
+}
+.head-menu {
+  background-color: #f9ab41;
+  min-height: 155px;
+}
+.content {
+  background-color: #fbd59c;
+  min-height: 83px;
+  margin-top: 3px;
+}
+.content h1 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px auto;
+  font-size: 34px;
+}
+.main-content {
+  margin-top: 44px;
+}
+.img-content {
+  background-color: #e5e5e5;
+  width: 131px;
+  height: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
