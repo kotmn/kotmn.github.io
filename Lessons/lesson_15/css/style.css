@@ -53,6 +53,10 @@ section::before{
 	-webkit-filter:brightness(0);
 }
 
+.jq:hover {
+	-webkit-filter:brightness(0.2);
+}
+
 .js:hover {
 	-webkit-filter: brightness(0.3);
 
