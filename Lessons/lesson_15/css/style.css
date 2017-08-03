@@ -1,84 +1,55 @@
-* {box-sizing: border-box;}
-body{
-	margin: 0;
-	
-}
-section {
-	position: relative;
-	text-align: center;
-	background: #333 url(../img/Bg.jpg) center  repeat;
-	margin: 0;
-	background-size: cover;
-	height: 100vh;
-	z-index: 0;
-}
-section::before{
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0, 0.5);
-	z-index: -1;
-}
-
-
 .box_photo {
 	display:block;
-	width: 100%;
-	height: 100%;
-	
-	
 }
+
+img {
+	width: 200px;
+	height: 400px;
+}
+
 .photo {
-	vertical-align: middle;
-	display:inline-block;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 13em;
-    margin-top: 20%;
-    position: relative;
-}
-
-
-.box_photo img
-{   
-	width:200px;
-	height: 200px;
-
-}
-/* hover */
-.html:hover {
-	-webkit-filter:brightness(0);
-}
-
-.jq:hover {
-	-webkit-filter:brightness(0.1);
-}
-
-.js:hover {
-	-webkit-filter: brightness(0.3);
-
+	
+	border: 2px solid white;
+	margin: 5px;
 }
 
 
 
+.img1 {
+	display: inline-block;
+	width: 200px;
+	height: 400px;
+	position: relative;
+	 
 
-.tell {
-	position: absolute;
-	tep: 0;
+}
+
+.img1::before{
+	 position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+	top: 0;
 	left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.5);
-    display: none;
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
-    transition: all .25s;
-    color: #fff;
+	content: 'Реклама';
+	line-height: 300px;
+  text-align: center;
+  font-size: 32px;
+ color: white;
+	display: inline-block;
+	transform: scalex(0);
+	-webkit-transition: opacity 1.8s;
+	-moz-transition: opacity 1.8s;
+	-o-transition: opacity 1.8s;
+	-ms-transition: opacity 1.8s;
+	transition: opacity 1.8s;
 }
 
-.css:hover .tell {
-	display: block;
+.img1:hover::before
+{
+	 transform: scalex(1);
+	
+
+
 }
+
