@@ -1,8 +1,9 @@
 body {
 	background-color: black;
 }
-h2 {
-	text-align: center
+.text{
+color:#333;
+text-align: center;
 }
 .header {
 	width: 864px;
