@@ -44,5 +44,11 @@
     
     - [Урок № 14](https://yadi.sk/d/tZCogB0J3LXhgY "Описание") Сниппеты.
     
-    - [Урок № 15](https://kotmn.github.io/ "Описание") Хостинг от GitHub.    
+    - [Урок № 15](https://kotmn.github.io/Lessons/lesson_15/ "Описание") Псевдоклассы и псевдоэлементы.  
+    
+    - [Урок № 16](https://kotmn.github.io/Lessons/lesson_16/ "Описание") Слайдер на сайте.  
+    
+    - [Урок № 17](https://kotmn.github.io/Lessons/lesson_17/ "Описание") Всплывающие окна. 
+    
+    - [Урок № 18](https://kotmn.github.io/Lessons/lesson_18/ "Описание") Табы и аккордеон на сайте. 
 
