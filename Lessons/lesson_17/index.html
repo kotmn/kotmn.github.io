@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="header">
+
+    <div class="message">
+
+        <img src="img/33532054-1.jpg" alt="">
+        <button href="#text-popup" class="popup-content btn">Удалить файл</button>
+
+        <div id="text-popup" class="white-popup mfp-hide head-mes">
+        <h1>Сиситемное сообщение!</h1>
+        <p>Вы действительно хотите удалить этот файл?<hr></p>
+        <div class="btn-gr">
+        <a href="index.html"><button class="yas">Да</button></a>
+        <a href="index.html"><button class="no">Нет</button></a>
+        </div>
+        </div>
+
+    </div>
+</div>
+    
+
+
+
+
+
+
+ <link rel="stylesheet" href="css/magnific-popup.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script>
+   jQuery(document).ready(function($) {
+    $('.popup-content').magnificPopup({
+        type: 'inline'
+    });
+});
+</script>
+</body>
+</html>
