@@ -1,18 +1,20 @@
 
 body {
 	margin: 0;
-	background: #fff url(../img/bg.jpg) center;
+	background: #fff url(../img/bg.jpg) center no-repeat;
     background-size: cover;
+    height: 980px;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   background-color: #0494bf;
-  color: #fff;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
+  color: black;
   border-bottom-color: transparent;
 }
-
+.nav-tabs > li.active > a:link{
+    color: #fff;
+}
 
 .for{
     position: absolute;
@@ -64,6 +66,7 @@ body {
 	position: relative;
 	top:20px;
 	left: 20px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
 	
 }
 
@@ -104,10 +107,27 @@ body {
     position: relative;
     left: 82%;
     bottom: 37px;
-    background:  line-gradient(45deg, #860701, #bf1d03 ,#860701);
+    background: radial-gradient(20% 80%, #c62003, #980e02);
 }
 .line-block p {
-   font-size: 16px;
-    font-weight: 600;
-   padding-left: 2rem;
+   font-size: 20px;
+   font-weight: 400;
+   padding-left: 34px;
+    padding-top: 6px;
+    color: aliceblue;
+    
+}
+.line-block a {
+    font-style: none;
+    
+}
+
+.line-block::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left:114px;
+    border: 8px solid transparent;	
+    border-left: 8px solid #410201; 
+    border-top: 8px solid #1f0100;
 }
