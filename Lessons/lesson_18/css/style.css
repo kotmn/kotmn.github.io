@@ -9,11 +9,12 @@ body {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   background-color: #0494bf;
-  color: black;
-  border-bottom-color: transparent;
+  color: whitesmoke;
+  
+  
 }
 .nav-tabs > li.active > a:link{
-    color: #fff;
+    color: whitesmoke;
 }
 
 .for{
@@ -24,7 +25,7 @@ body {
 	transform: translatex(-50%);
 	display: block;	
 	background-color: none;
-
+    
 
 	
 }
@@ -35,10 +36,10 @@ body {
 .form{
 	margin-left: 1.7rem;
 	border: none;
-
+    
 }
 .form li {
-	border: 1px solid #0494bf;
+	border: 1px solid transparent;
 	width: 115px;
     margin-bottom: 0px;
 	padding-left: 1rem;
@@ -46,6 +47,7 @@ body {
     z-index: -1;
     font-size: 20px;
     margin-top: -40px;
+    
 }
 
 .contain{
@@ -98,6 +100,7 @@ body {
     margin-top: 40px;
     transition: .5s;
     font-weight: 600;
+    outline: none;
   
 }
 .line-block {
@@ -117,6 +120,7 @@ body {
     color: aliceblue;
     
 }
+
 .line-block a {
     font-style: none;
     
