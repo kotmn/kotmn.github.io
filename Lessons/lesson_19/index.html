@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <title>Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<div class="for">
+     <!-- Nav tabs -->
+     <ul class="nav nav-tabs form wow bounceInDown" data-wow-duration="1s">
+            <li role="presentation" class="active">
+                 <a href="#home" data-toggle="tab" class="inputf">Sign-in</a>
+            </li>
+
+            <li role="presentation">
+               <a href="#profile" aria-controls="profile" class="inputf" data-toggle="tab">Sign-in</a>
+            </li>
+     </ul>
+ 
+<!-- Tab panes os content-->
+   <div class="tab-content contain wow rollIn">
+
+         <div role="tabpanel" class="tab-pane active  id="home">
+               <form action="#" name="user-form" class="for1 pulse wow " data-wow-delay="0.9s"">
+                  <input class="in-form" type="text" value="Username"> 
+                  <input class="in-form in-form2" type="password" value="password">
+                  <p>Forgot your password?</p>
+               <label class="check-form"> <input type="checkbox">  Remember me</label>
+         </form>
+         </div>
+
+         <div role="tabpanel" class="tab-pane" id="profile">
+                <form action="#" name="user-form" class="for1">
+                   <input class="in-form" type="text" value="Username"> 
+                   <input class="in-form in-form2" type="password" value="password">
+         </form>
+         </div>
+    
+           <div class="line">
+               <div class="line-block jackInTheBox wow" data-wow-delay="1.1s">
+                   <a href="#"><p>Sign-in</p></a>
+               </div>
+           </div>
+    
+   </div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      var wow = new WOW;
+      wow.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+
+body {
+	margin: 0;
+	background: #fff url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+    height: 980px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: #0494bf;
+  color: whitesmoke;
+  
+  
+}
+.nav-tabs > li.active > a:link{
+    color: whitesmoke;
+}
+
+.for{
+    position: absolute;
+	top: 20%;
+	transform: translatey(-20%);
+	left: 50%;
+	transform: translatex(-50%);
+	display: block;	
+	background-color: none;
+    
+
+	
+}
+
+.for a {
+	background-color: white;
+}
+.form{
+	margin-left: 1.7rem;
+	border: none;
+    
+}
+.form li {
+	border: 1px solid transparent;
+	width: 115px;
+    margin-bottom: 0px;
+	padding-left: 1rem;
+    margin-bottom: -10px;
+    z-index: -1;
+    font-size: 20px;
+    margin-top: -40px;
+    
+}
+
+.contain{
+	background-color: #0494bf;
+	width: 630px;
+	height: 410px;
+	border-radius: 5px;
+	
+}
+
+
+.for1{
+	display: inline-block;
+	height: 372px;
+	width: 590px;
+	border-radius: 5px;
+	background-color: black;
+	position: relative;
+	top:20px;
+	left: 20px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+	
+}
+
+.in-form{
+    display: block;
+    width: 480px;
+    height: 62px;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+    background-image: url(../img/bg-form.png);
+    padding: 20px;
+    margin: 70px 55px 27px 45px;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.in-form2 {
+    margin:27px 55px 23px 45px;
+}
+.for1 p {
+    color: #c51f03;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 67px;
+}
+.check-form{
+    margin-left: 67px;
+    margin-top: 40px;
+    transition: .5s;
+    font-weight: 600;
+    outline: none;
+  
+}
+.line-block {
+    width: 130px;
+    height: 40px;
+    z-index: 55;
+    position: relative;
+    left: 82%;
+    bottom: 37px;
+    background: radial-gradient(20% 80%, #c62003, #980e02);
+}
+.line-block p {
+   font-size: 20px;
+   font-weight: 400;
+   padding-left: 34px;
+    padding-top: 6px;
+    color: aliceblue;
+    
+}
+
+.line-block a {
+    font-style: none;
+    
+}
+
+.line-block::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left:114px;
+    border: 8px solid transparent;	
+    border-left: 8px solid #410201; 
+    border-top: 8px solid #1f0100;
+}
