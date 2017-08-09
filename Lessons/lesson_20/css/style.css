@@ -1,0 +1,28 @@
+*{box-sizing: border-box;}
+body {
+	margin: 0;
+}
+.section {
+    min-height: 100vh;
+    text-align: center;
+    width: 100%;
+    display: table;
+
+    
+}
+.wrap-block {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+
+}
+.say {
+    border: 2px solid white;
+    display: block;
+    font-size: 1rem;
+    padding: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
