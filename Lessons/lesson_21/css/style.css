@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+body {
+	padding-top: 30px;
+    background: #fff url(../img/bg.jpg) center repeat;
+    background-size: cover;
+
+}
+
+section{
+    margin-top: 10%;
+    font-size: 16px;
+    text-align: center;
+}
+.left {
+    position: relative;
+    left: 0em;
+    margin-top: 10em;
+    width: 50%;
+}
+
+.right {
+    margin-top: 15em;
+    width: 50%;
+    margin-left: 10em;
+    
+}
