@@ -47,40 +47,34 @@
   </section>
 
   <script src="js/jquery-1.12.4.min.js"></script>
-  <script>
-var myMap,
-myPlacemark;
-
-// Дождёмся загрузки API и готовности DOM.
-ymaps.ready(init);
-
-function init () {
-    // Создание экземпляра карты и его привязка к контейнеру с
-    // заданным id ("map").
-    myMap = new ymaps.Map('map', {
-        // При инициализации карты обязательно нужно указать
-        // её центр и коэффициент масштабирования.
-        center: [55.861345, 37.425268], // Москва
+  <script type="text/javascript">
+ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+        center: [55.862347, 37.432478],
         zoom: 16,
-        controls: ['zoomControl']
+        // Обратите внимание, что в API 2.1 по умолчанию карта создается с элементами управления.
+        // Если вам не нужно их добавлять на карту, в ее параметрах передайте пустой массив в поле controls.
+        controls: []
+
+    });
+
+    var myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+        balloonContentBody: [
+            '<address>',
+            '<strong>Офис  Виллиса Лациса</strong>',
+            '<br/>',
+            'Адрес: 119021, Москва, Виллиса Лациса, 4к',
+            '<br/>',
+            '</address>'
+        ].join('')
     }, {
-        searchControlProvider: 'yandex#search'
-    })
-    ;
+        preset: 'islands#redDotIcon'
+    });
     
-    document.getElementById('destroyButton').onclick = function () {
-        // Для уничтожения используется метод destroy.
-        myMap.destroy();
-    };
+    myMap.behaviors.disable('scrollZoom'); // - отключение скролинга 
+    myMap.geoObjects.add(myPlacemark);
 
-   myPlacemark = new ymaps.Placemark([55.862347, 37.432478], {
-                hintContent: 'Москва!',
-                balloonContent: 'Столица России'
-            });
-            
-            myMap.geoObjects.add(myPlacemark);
-    }
-
+});
 
   </script>
   
