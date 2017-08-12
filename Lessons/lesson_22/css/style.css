@@ -1,0 +1,76 @@
+*{box-sizing: border-box;}
+body {
+	padding-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.promo {
+    width: 350px;
+    height: 400px;
+    background-color: #c60b0b;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+}
+.promo h2 {
+    padding-top: 3rem;
+}
+
+.promo p{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+
+}
+.map {
+    position: relative;
+   
+}
+
+.logo p{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    text-align: 3rem;
+    width: 10rem;
+
+}
+
+.logo {
+    padding-left: 20%;
+    margin-top: 3rem;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo img {
+    margin-top: -2rem;
+    margin-right: 1rem;
+}
+
+
+.logo-phone{
+    
+    margin-top: 3rem;
+}
+
+.logo-phone b{
+    font-size: 22px;
+    padding-left: 20%;
+    font-weight: 300;
+    color: black;
+}
+.logo-phone p {
+    text-align: center;
+    line-height: 1em;
+}
+.sert {
+    margin-top: 4rem;
+    color: #666;
+    text-align: center;
+}
